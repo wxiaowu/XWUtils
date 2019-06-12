@@ -13,6 +13,8 @@
 		58DFF1FA22B16EDB0037A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF1F922B16EDB0037A10A /* Assets.xcassets */; };
 		58DFF1FD22B16EDB0037A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF1FB22B16EDB0037A10A /* LaunchScreen.storyboard */; };
 		58DFF20022B16EDB0037A10A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF1FF22B16EDB0037A10A /* main.m */; };
+		58DFF20B22B170B00037A10A /* UIImage_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF20A22B170B00037A10A /* UIImage_Util.m */; };
+		58DFF20D22B1716A0037A10A /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF20C22B1716A0037A10A /* test.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		58DFF1FC22B16EDB0037A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58DFF1FE22B16EDB0037A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58DFF1FF22B16EDB0037A10A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58DFF20922B170B00037A10A /* UIImage_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImage_Util.h; sourceTree = "<group>"; };
+		58DFF20A22B170B00037A10A /* UIImage_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_Util.m; sourceTree = "<group>"; };
+		58DFF20C22B1716A0037A10A /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 				58DFF1FB22B16EDB0037A10A /* LaunchScreen.storyboard */,
 				58DFF1FE22B16EDB0037A10A /* Info.plist */,
 				58DFF1FF22B16EDB0037A10A /* main.m */,
+				58DFF20C22B1716A0037A10A /* test.gif */,
 			);
 			path = XWUtils;
 			sourceTree = "<group>";
@@ -84,6 +90,8 @@
 		58DFF20722B16F820037A10A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				58DFF20922B170B00037A10A /* UIImage_Util.h */,
+				58DFF20A22B170B00037A10A /* UIImage_Util.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -152,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DFF20D22B1716A0037A10A /* test.gif in Resources */,
 				58DFF1FD22B16EDB0037A10A /* LaunchScreen.storyboard in Resources */,
 				58DFF1FA22B16EDB0037A10A /* Assets.xcassets in Resources */,
 				58DFF1F822B16EDA0037A10A /* Main.storyboard in Resources */,
@@ -168,6 +177,7 @@
 				58DFF1F522B16EDA0037A10A /* ViewController.m in Sources */,
 				58DFF20022B16EDB0037A10A /* main.m in Sources */,
 				58DFF1F222B16EDA0037A10A /* AppDelegate.m in Sources */,
+				58DFF20B22B170B00037A10A /* UIImage_Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
