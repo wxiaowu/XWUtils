@@ -15,6 +15,7 @@
 		58DFF20022B16EDB0037A10A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF1FF22B16EDB0037A10A /* main.m */; };
 		58DFF20B22B170B00037A10A /* UIImage_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF20A22B170B00037A10A /* UIImage_Util.m */; };
 		58DFF20D22B1716A0037A10A /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF20C22B1716A0037A10A /* test.gif */; };
+		58DFF21022B172160037A10A /* NSDate_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF20F22B172160037A10A /* NSDate_Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		58DFF20922B170B00037A10A /* UIImage_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImage_Util.h; sourceTree = "<group>"; };
 		58DFF20A22B170B00037A10A /* UIImage_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_Util.m; sourceTree = "<group>"; };
 		58DFF20C22B1716A0037A10A /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		58DFF20E22B172160037A10A /* NSDate_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDate_Util.h; sourceTree = "<group>"; };
+		58DFF20F22B172160037A10A /* NSDate_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDate_Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		58DFF20822B16F820037A10A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				58DFF20E22B172160037A10A /* NSDate_Util.h */,
+				58DFF20F22B172160037A10A /* NSDate_Util.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			files = (
 				58DFF1F522B16EDA0037A10A /* ViewController.m in Sources */,
 				58DFF20022B16EDB0037A10A /* main.m in Sources */,
+				58DFF21022B172160037A10A /* NSDate_Util.m in Sources */,
 				58DFF1F222B16EDA0037A10A /* AppDelegate.m in Sources */,
 				58DFF20B22B170B00037A10A /* UIImage_Util.m in Sources */,
 			);
