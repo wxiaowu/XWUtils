@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)xw_clearSubviews; /**< 清除所有子视图 */
 - (__kindof UIViewController *)xw_currentViewController;/**< 获取View所在的controller */
+
 - (UIImage *)xw_snapshot; /**< 截图 */
 
 @end

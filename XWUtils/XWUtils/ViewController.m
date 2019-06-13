@@ -12,6 +12,7 @@
 #import "UIViewController_Util.h"
 #import "UIView_Util.h"
 #import "NSString_XWCrypto.h"
+#import "ViewController3.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UIImageView *imageView;
@@ -51,6 +52,13 @@
     //    self.imageView.center = self.view.center;
     
     
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+    [btn setTitle:@"打开网页" forState:UIControlStateNormal];
+    [btn setBackgroundColor:[UIColor orangeColor]];
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+    
     NSString *str = [NSString stringWithFormat:@"我就是小五啊"];
     NSLog(@"MD5====%@", [str xw_MD5Digest]);
     NSLog(@"sha256====%@", [str xw_sha256Digest]);
@@ -62,16 +70,33 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    ViewController2 *vc2 = [[ViewController2 alloc] init];
-    [vc2 setXw_onControllerResult:^(UIViewController *controller, NSUInteger resultCode, NSDictionary *data) {
+//    ViewController2 *vc2 = [[ViewController2 alloc] init];
+//    [vc2 setXw_onControllerResult:^(UIViewController *controller, NSUInteger resultCode, NSDictionary *data) {
+//        if (resultCode == 1) {
+//            // deal with data..
+//        }
+//        [controller dismissViewControllerAnimated:YES completion:nil];
+//    }];
+//    [self presentViewController:vc2 animated:YES completion:nil];
+    
+    
+    
+}
+
+
+- (void)btnClick:(UIButton *)btn {
+    
+    ViewController3 *vc3 = [[ViewController3 alloc] init];
+    [vc3 setXw_onControllerResult:^(UIViewController *controller, NSUInteger resultCode, NSDictionary *data) {
         if (resultCode == 1) {
-            // deal with data..
+            self.imageView.image = data[@"image"];
+            self.imageView.frame = self.view.frame;
+            self.imageView.contentMode = UIViewContentModeScaleAspectFit;
         }
         [controller dismissViewControllerAnimated:YES completion:nil];
     }];
-    [self presentViewController:vc2 animated:YES completion:nil];
     
-    
+    [self presentViewController:vc3 animated:YES completion:nil];
 }
 
 
