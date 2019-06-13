@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ViewController2.h"
 #import "UIImage_Util.h"
+#import "UIViewController_Util.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UIImageView *imageView;
@@ -39,11 +41,24 @@
     //        self.imageView.center = self.view.center;
     //    }];
     
+    
     // 二维码
     //    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage xw_generateQRCodeWithString:@"https://www.jianshu.com/u/6091a95881e7" withSize:CGSizeMake(200, 200)]];
     // 条形码
     //    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage xw_generateBarcodeWithString:@"1192998575" withSize:CGSizeMake(350, 350)]];
     //    self.imageView.center = self.view.center;
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    ViewController2 *vc2 = [[ViewController2 alloc] init];
+    [vc2 setXw_onControllerResult:^(UIViewController *controller, NSUInteger resultCode, NSDictionary *data) {
+        if (resultCode == 1) {
+            // deal with data..
+        }
+        [controller dismissViewControllerAnimated:YES completion:nil];
+    }];
+    [self presentViewController:vc2 animated:YES completion:nil];
 }
 
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5829853022B2068A002900CB /* UIViewController_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829852F22B2068A002900CB /* UIViewController_Util.m */; };
+		5829853322B21E04002900CB /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853222B21E04002900CB /* ViewController2.m */; };
+		5829853622B224DD002900CB /* NSString_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853522B224DC002900CB /* NSString_Util.m */; };
+		5829853B22B22691002900CB /* NSString_XWCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853822B22690002900CB /* NSString_XWCrypto.m */; };
+		5829853C22B22691002900CB /* NSData_XWCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853A22B22690002900CB /* NSData_XWCrypto.m */; };
+		5829853F22B23DB6002900CB /* XWBase64EncodingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853E22B23DB6002900CB /* XWBase64EncodingUtil.m */; };
 		58DFF1F222B16EDA0037A10A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF1F122B16EDA0037A10A /* AppDelegate.m */; };
 		58DFF1F522B16EDA0037A10A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF1F422B16EDA0037A10A /* ViewController.m */; };
 		58DFF1F822B16EDA0037A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF1F622B16EDA0037A10A /* Main.storyboard */; };
@@ -19,6 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5829852E22B2068A002900CB /* UIViewController_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewController_Util.h; sourceTree = "<group>"; };
+		5829852F22B2068A002900CB /* UIViewController_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController_Util.m; sourceTree = "<group>"; };
+		5829853122B21E04002900CB /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		5829853222B21E04002900CB /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		5829853422B224DC002900CB /* NSString_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSString_Util.h; sourceTree = "<group>"; };
+		5829853522B224DC002900CB /* NSString_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSString_Util.m; sourceTree = "<group>"; };
+		5829853722B22690002900CB /* NSData_XWCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSData_XWCrypto.h; sourceTree = "<group>"; };
+		5829853822B22690002900CB /* NSString_XWCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_XWCrypto.m; sourceTree = "<group>"; };
+		5829853922B22690002900CB /* NSString_XWCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_XWCrypto.h; sourceTree = "<group>"; };
+		5829853A22B22690002900CB /* NSData_XWCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_XWCrypto.m; sourceTree = "<group>"; };
+		5829853D22B23DB6002900CB /* XWBase64EncodingUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWBase64EncodingUtil.h; sourceTree = "<group>"; };
+		5829853E22B23DB6002900CB /* XWBase64EncodingUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWBase64EncodingUtil.m; sourceTree = "<group>"; };
 		58DFF1ED22B16EDA0037A10A /* XWUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DFF1F022B16EDA0037A10A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58DFF1F122B16EDA0037A10A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +89,8 @@
 				58DFF1F122B16EDA0037A10A /* AppDelegate.m */,
 				58DFF1F322B16EDA0037A10A /* ViewController.h */,
 				58DFF1F422B16EDA0037A10A /* ViewController.m */,
+				5829853122B21E04002900CB /* ViewController2.h */,
+				5829853222B21E04002900CB /* ViewController2.m */,
 				58DFF1F622B16EDA0037A10A /* Main.storyboard */,
 				58DFF1F922B16EDB0037A10A /* Assets.xcassets */,
 				58DFF1FB22B16EDB0037A10A /* LaunchScreen.storyboard */,
@@ -95,6 +115,8 @@
 			children = (
 				58DFF20922B170B00037A10A /* UIImage_Util.h */,
 				58DFF20A22B170B00037A10A /* UIImage_Util.m */,
+				5829852E22B2068A002900CB /* UIViewController_Util.h */,
+				5829852F22B2068A002900CB /* UIViewController_Util.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -104,6 +126,14 @@
 			children = (
 				58DFF20E22B172160037A10A /* NSDate_Util.h */,
 				58DFF20F22B172160037A10A /* NSDate_Util.m */,
+				5829853422B224DC002900CB /* NSString_Util.h */,
+				5829853522B224DC002900CB /* NSString_Util.m */,
+				5829853722B22690002900CB /* NSData_XWCrypto.h */,
+				5829853A22B22690002900CB /* NSData_XWCrypto.m */,
+				5829853922B22690002900CB /* NSString_XWCrypto.h */,
+				5829853822B22690002900CB /* NSString_XWCrypto.m */,
+				5829853D22B23DB6002900CB /* XWBase64EncodingUtil.h */,
+				5829853E22B23DB6002900CB /* XWBase64EncodingUtil.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -179,11 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5829853322B21E04002900CB /* ViewController2.m in Sources */,
+				5829853022B2068A002900CB /* UIViewController_Util.m in Sources */,
+				5829853C22B22691002900CB /* NSData_XWCrypto.m in Sources */,
 				58DFF1F522B16EDA0037A10A /* ViewController.m in Sources */,
 				58DFF20022B16EDB0037A10A /* main.m in Sources */,
+				5829853B22B22691002900CB /* NSString_XWCrypto.m in Sources */,
 				58DFF21022B172160037A10A /* NSDate_Util.m in Sources */,
+				5829853F22B23DB6002900CB /* XWBase64EncodingUtil.m in Sources */,
 				58DFF1F222B16EDA0037A10A /* AppDelegate.m in Sources */,
 				58DFF20B22B170B00037A10A /* UIImage_Util.m in Sources */,
+				5829853622B224DD002900CB /* NSString_Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
