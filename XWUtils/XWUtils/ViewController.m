@@ -11,6 +11,7 @@
 #import "UIImage_Util.h"
 #import "UIViewController_Util.h"
 #import "UIView_Util.h"
+#import "NSString_XWCrypto.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UIImageView *imageView;
@@ -48,6 +49,15 @@
     // 条形码
     //    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage xw_generateBarcodeWithString:@"1192998575" withSize:CGSizeMake(350, 350)]];
     //    self.imageView.center = self.view.center;
+    
+    
+    NSString *str = [NSString stringWithFormat:@"我就是小五啊"];
+    NSLog(@"MD5====%@", [str xw_MD5Digest]);
+    NSLog(@"sha256====%@", [str xw_sha256Digest]);
+    NSLog(@"DES====%@", [str xw_encryptStringWithKey:@"123456" type:0]);
+    NSLog(@"3DES====%@", [str xw_encryptStringWithKey:@"123456" type:1]);
+    NSLog(@"AES256====%@", [str xw_encryptStringWithKey:@"123456" type:2]);
+    
     
 }
 
