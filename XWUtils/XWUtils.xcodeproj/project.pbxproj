@@ -13,6 +13,7 @@
 		5829853B22B22691002900CB /* NSString_XWCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853822B22690002900CB /* NSString_XWCrypto.m */; };
 		5829853C22B22691002900CB /* NSData_XWCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853A22B22690002900CB /* NSData_XWCrypto.m */; };
 		5829853F22B23DB6002900CB /* XWBase64EncodingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829853E22B23DB6002900CB /* XWBase64EncodingUtil.m */; };
+		5829854222B24BDF002900CB /* UIView_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5829854122B24BDF002900CB /* UIView_Util.m */; };
 		58DFF1F222B16EDA0037A10A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF1F122B16EDA0037A10A /* AppDelegate.m */; };
 		58DFF1F522B16EDA0037A10A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFF1F422B16EDA0037A10A /* ViewController.m */; };
 		58DFF1F822B16EDA0037A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DFF1F622B16EDA0037A10A /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 		5829853A22B22690002900CB /* NSData_XWCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_XWCrypto.m; sourceTree = "<group>"; };
 		5829853D22B23DB6002900CB /* XWBase64EncodingUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XWBase64EncodingUtil.h; sourceTree = "<group>"; };
 		5829853E22B23DB6002900CB /* XWBase64EncodingUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWBase64EncodingUtil.m; sourceTree = "<group>"; };
+		5829854022B24BDF002900CB /* UIView_Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIView_Util.h; sourceTree = "<group>"; };
+		5829854122B24BDF002900CB /* UIView_Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView_Util.m; sourceTree = "<group>"; };
 		58DFF1ED22B16EDA0037A10A /* XWUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DFF1F022B16EDA0037A10A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58DFF1F122B16EDA0037A10A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				58DFF20A22B170B00037A10A /* UIImage_Util.m */,
 				5829852E22B2068A002900CB /* UIViewController_Util.h */,
 				5829852F22B2068A002900CB /* UIViewController_Util.m */,
+				5829854022B24BDF002900CB /* UIView_Util.h */,
+				5829854122B24BDF002900CB /* UIView_Util.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 			files = (
 				5829853322B21E04002900CB /* ViewController2.m in Sources */,
 				5829853022B2068A002900CB /* UIViewController_Util.m in Sources */,
+				5829854222B24BDF002900CB /* UIView_Util.m in Sources */,
 				5829853C22B22691002900CB /* NSData_XWCrypto.m in Sources */,
 				58DFF1F522B16EDA0037A10A /* ViewController.m in Sources */,
 				58DFF20022B16EDB0037A10A /* main.m in Sources */,
